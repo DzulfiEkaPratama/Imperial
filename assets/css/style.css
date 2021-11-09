@@ -1,3 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  background-color: #800000;
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(0, 153, 255);
+  font-size: 3rem;
+  font-weight: 50;
+  text-align: center;
+  margin: 1rem 0 3rem; 
+  font-family: 'Hind', sans-serif;
+}
+.title{
+  color: #03ebb9;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.inputDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 25px;
+  width: 350px;
+  margin: 0.25rem;
+  transition: .5s;
+  font-size: 1.15rem;
+}
+.add{
+  outline: none;
+  border: none;
+  height: 50px;
+  border-radius: 25px;
+  width: 50px;
+  background-color: #03ebb9;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+  margin: 0.25rem;
+}
+.add:hover{
+  opacity: 0.7;
+}
+.isi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+.item{
+  padding: 0.5rem;
+  border-bottom: 4px solid #03ebb9;
+  margin-bottom: 1.5rem;
+}
+.item_input{
+  background: none;
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 1.4rem;
+  width: 245px;
+}
+.edit{
+  background: none;
+  outline: none;
+  border: none;
+  color: #03ebb9;
+  font-size: 1.4rem;
+  font-family: 'Hind', sans-serif;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.remove{
+  background: none;
+  outline: none;
+  border: none;
+  color: rgb(0, 153, 255);
+  font-size: 1.4rem;
+  font-family: 'Hind', sans-serif;
+  cursor: pointer;
+}
+
 /**
 * Template Name: Imperial - v5.6.0
 * Template URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
@@ -671,6 +766,101 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# To Do List
+--------------------------------------------------------------*/
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color:rgb(131, 131, 131);
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.number, .empty{
+    background-color: #acbeca;
+}
+.operator{
+    background-color: #c7ffe4;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    font-size: 13px;
+}
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #b2209b;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #ff0000;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #80f0ee;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #89e07d;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #ff8665;
+}
+
 
 /* Testimonials Section
 --------------------------------*/

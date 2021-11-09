@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dzulfi - Portfolio</title>
+  <title>Dzulfi - Beranda</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -61,11 +61,11 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="index.html">Beranda</a></li>
-          <li><a class="nav-link scrollto " href="about.html">Tentang</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="about.html">Tentang</a></li>
           <li><a class="nav-link scrollto" href="service.html">Layanan</a></li>
-          <li><a class="nav-link scrollto active" href="portfolio.html">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="kalkulator.html">Kalkulator & To Do List</a></li>
+          <li><a class="nav-link scrollto" href="portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link scrollto active" href="kalkulator.html">Kalkulator & To Do List</a></li>
           <li><a class="nav-link scrollto" href="testimonial.html">Testimoni</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Kontak</a></li>
         </ul>
@@ -75,72 +75,73 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
-
-
-  </main><!-- End #main -->
-
-  
-
-   <!-- ======= Portfolio Section ======= -->
-   <section id="portfolio">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Portfolio</h3>
-          <div class="section-title-divider"></div>
+  <!-- ======= Kalkulator Section ======= -->
+  <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+        <title>Aplikasi Kalkulator Simple</title>
+    </head>
+    <body>
+      <br>
+      <br>
+      <br>
+      <br>
+        <div id="container">
+            <div id="calculator">
+                <div id="result">
+                    <div id="history">
+                        <p id="history-value"></p>
+                    </div>
+                    <div id="output">
+                        <p id="output-values"></p>
+                    </div>
+                </div>
+                <div id="keyboard">
+                    <button class="operator" id="clear">C</button>
+                    <button class="operator" id="backspace">CE</button>
+                    <button class="operator" id="%">%</button>
+                    <button class="operator" id="/">&#247;</button>
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    <button class="operator" id="*">&times;</button>
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    <button class="operator" id="-">-</button>
+                    <button class="number" id="1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    <button class="operator" id="+">+</button>
+                    <button class="empty" id="empty"></button>
+                    <button class="number" id="0">0</button>
+                    <button class="empty" id="empty"></button>
+                    <button class="operator" id="=">=</button>
+                </div>
+            </div>
         </div>
-      </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+      <!-- End Kalkulator Section -->
 
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter=".filter-web">Web</li>
-          </ul>
-        </div>
-      </div>
+      <h1><span class="title">to do </span>List</h1>
+  <div class="inputDiv">
+         <input type="text" class="input" placeholder="write...">
+         <button class="add"><i class="fas fa-plus"></i></button>
+  </div>
+  <div class="isi">
+  </div>
+  <script src='kalkulator.js'></script>
 
-      <div class="row portfolio-container">
+</body>
+</html>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Contact Form</h4>
-            <p>Form</p>
-            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Contact Form"><i class="bi bi-plus"></i></a>
-          </div>
-        </div>
+<main id="main">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Duplicate Web</h4>
-            <p>Web</p>
-            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Duplicate Web"><i class="bi bi-plus"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Html</h4>
-            <p>Html</p>
-            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Html"><i class="bi bi-plus"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Bikin Portopolio</h4>
-            <p>Portopolio</p>
-            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Portopolio"><i class="bi bi-plus"></i></a>
-          </div>
-        </div>
-  </section><!-- End Portfolio Section -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -153,6 +154,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/kalkulator.js"></script>
 
 </body>
 
